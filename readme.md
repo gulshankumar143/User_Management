@@ -1,4 +1,4 @@
-# SQLNode User Management App
+# User Management App Project
 
 This is a simple Node.js application for managing users with a SQL database. The app uses Express.js for the server, EJS for templating, and a SQL database for data storage. It provides basic CRUD (Create, Read, Update, Delete) operations for user management.
 
@@ -98,4 +98,8 @@ You may use environment variables for sensitive data in production.
 - **mysql2**: MySQL database driver
 - **method-override**: Supports HTTP verbs like PATCH/DELETE in forms
 - **@faker-js/faker**: Generates fake user data for testing
+
 - **uuid**: Generates unique user IDs
+
+## Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
