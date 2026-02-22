@@ -180,14 +180,3 @@ app.delete("/user/:id/", (req, res) => {
 app.listen("8080", () => {
     console.log("server is listening to port 8080");
 });
-
-// try {
-//     connection.query(q, [data], (err, result) => {
-//     if (err) throw err;
-//     console.log(result);
-// });
-// } catch (err) {
-//     console.log(err);
-// }
-
-// connection.end();
